@@ -1,0 +1,569 @@
+/* global */
+
+.container {
+  width: 85%;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: left !important;
+}
+
+/* home-hero-section */
+.home-hero-inner{
+    height: 88vh;
+    font-size: 0.9em;
+}
+.home-hero-inner h1{
+    text-align: center !important;
+}
+/* home-hero-section end*/
+
+/* home-about-section */
+.home-about{
+    margin: 50px 0;
+}
+.home-about-inner{
+    flex-direction: column;
+}
+.home-about-left{
+    margin-right: 00px;
+    margin-bottom: 30px;
+}
+.title h1{
+    font-size: 2em;
+    text-align: left !important;
+}
+.g-line-1{
+    height: 3px;
+    width: 90%;
+}
+.g-line-2{
+    height: 3px;
+    width: 50px;
+}
+.home-about-left p{
+    font-size: 0.8em;
+    margin-top: 30px;
+    color: var(--font-color-grey);
+    margin-bottom: 50px;
+}
+.link{
+    padding: 10px 30px;
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 0.8em;
+}
+.home-about-right img{
+    width:100%;
+}
+/* home-about-section end*/
+
+/* BUSINESS VERTICLES section */
+.bv-section {
+    margin: 50px 0;
+}
+.bv-divs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.bv-div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.bv-div-left{
+    position: relative;
+}
+.bv-img{
+    width: 90%;
+}
+.bv-title{
+    padding: 20px 20px;
+    bottom:-40px;
+    right: -10px;
+    border: 5px solid var(--white);
+    font-size: 1.4em;
+}
+.bv-div-right{
+    margin-left: 0px;
+    margin-top: 60px;
+}
+.bv-div-right p{
+    font-size: 0.9em;
+}
+.bv-div-2{
+    flex-direction: column-reverse;
+    margin-bottom: 0;
+}
+.bv-div-left-2{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+.bv-img-2{
+    width: 90%;
+    float: right;
+}
+.bv-div-right-2{
+    margin-left: 0px;
+    position: relative;
+}
+.bv-title-2{
+    padding: 20px 20px;
+    bottom:-40px;
+    left: -10px;
+    border: 5px solid var(--white);
+    font-size: 1.4em;
+}
+.bv-div-left-2 p{
+    font-size: 0.9em;
+}
+/* BUSINESS VERTICLES section end*/
+
+/* footer */
+.footer{
+    padding: 50px 0px;
+  }
+  .footer-inner{
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+  .footer-company-detials{
+    margin-bottom: 20px;
+  }
+  .footer-logo{
+    margin-bottom: 0px;
+  }
+  
+  .company-details p {
+    font-size: 0.7em;
+  }
+  
+  .footer-company-detials p{
+    font-size: 0.7em;
+  }
+  .social-media{
+    display: flex;
+    grid-gap: 20px;
+  }
+  
+  .company-detail-title h2, .usefull-link-title h2{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+  .location,.phone{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .location img ,.phone img{
+    height: 20px;
+    margin-top: 2px;
+    margin-right: 10px;
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+  }
+  .links a{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+  /* footer end*/
+
+/* 2. about us page  */
+
+/* page title section */
+.page-title-inner{
+    padding: 80px 0;
+}
+.page-title-inner h1{
+    font-size: 2em;
+    text-align: center !important;
+}
+/* page title section end*/
+
+/* company overview section  */
+.co-section{
+    margin: 50px 0px;
+}
+.co-inner{
+    flex-direction: column-reverse;
+}
+.co-left{
+    padding-right: 0px;
+    padding-top: 100px;
+}
+.co-left p{
+    padding-top: 20px;
+    font-size: 0.8em;
+}
+.co-right{
+    position: relative;
+}
+.co-img{
+    width: 90%;
+    float: right;
+}
+.mission{
+    position: absolute;
+    padding: 20px;
+    width: 180px;
+    bottom:-80px;
+    left: -5px;
+    border: 5px solid var(--white);
+}
+.mission img{
+    width: 40px;
+}
+.mission h2{
+    font-size: 1.2em;
+    padding-top: 12px;
+}
+.mission p{
+    font-size: 0.8em;
+    padding-top: 12px;
+}
+
+/* company overview section end */
+
+/* what we do section */
+.wwd-inner{
+    flex-direction: column;
+}
+.wwd-left{
+    position: relative;
+}
+.wwd-img{
+    width: 90%;
+}
+.vision{
+    position: absolute;
+    padding: 15px;
+    width: 180px;
+    bottom:-80px;
+    right: -5px;
+    border: 5px solid var(--white);
+}
+.vision img{
+    width: 40px;
+}
+.vision h2{
+    font-size: 1.2em;
+    padding-top: 12px;
+}
+.vision p{
+    font-size: 0.8em;
+    padding-top: 12px;
+}
+.wwd-right{
+    padding-left: 00px;
+    padding-top: 100px;
+}
+.wwd-right p{
+    padding-top: 20px;
+    font-size: 0.8em;
+}
+/* what we do section end*/
+
+/* 3. contact us page  */
+
+/* location section */
+.contact-title{
+    padding-top: 50px;
+}
+.location-section{
+    margin: 50px 0px;
+}
+.location-section-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    grid-gap: 0;
+}
+.location-left iframe{
+    width: 100% !important;
+    height: 250px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.location-right{
+    width: 100%;
+}
+.location-div{
+    padding: 12px;
+    margin-bottom: 15px;
+}
+.location-div img{
+    width: 50px;
+    padding-right: 20px;
+}
+.location-div p{
+    font-size: 0.7em;
+}
+.email-div{
+    padding: 15px;
+}
+.email-div img{
+    width: 50px;
+    padding-right: 20px;
+}
+.email-div p{
+    font-size: 0.9em;
+    text-align: left !important;
+}
+.con-det h3{
+    font-size: 0.8em;
+    text-align: left !important;
+}
+.con-det-2 h3{
+    font-size: 0.8em;
+}
+/* location section end*/
+
+
+/* contgact us form */
+
+.contact-us-form-inner{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: center;
+}
+
+.contact-form{
+    margin-top: 30px;
+    padding: 30px;
+    background-color:var(--white);
+}
+
+.form-inline{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+}
+input[type=text] ,input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+/* contgact us form end*/
+
+/* 4. career page  */
+
+/* why join us section */
+.wju-section{
+    margin: 50px 0px;
+}
+.wju-section-inner{
+    flex-direction: column;
+}
+.wju-left p{
+    font-size: 1em;
+    padding-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+.wju-right img{
+    width: 100%;
+}
+/* why join us section end*/
+
+/* join section */
+.join-1-inner h2{
+    font-size: 1.3em;
+}
+.join-1-inner p{
+    font-size: 0.8em;
+}
+.join-2{
+    margin: 30px 0px;
+}
+.join-2-inner{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: left;
+    background: var(--white);
+}
+.join-2-text h2{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.join-2-text{
+    margin-right: 0px;
+}
+.join-2-text p{
+    font-size: 0.8em;
+    padding-bottom: 30px;
+    text-align: left !important;
+}
+.join-2-inner a{
+    background: var(--primary-color);
+    padding:15px 40px;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+}
+/* join section end*/
+
+/* 5.polymer  */
+
+/* polymer section */
+.polymer{
+    margin-bottom: 50px;
+}
+.polymer-info{
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.polymer-img img{
+    width: 90%;
+}
+.polymer-img .polymer-title{
+    position: absolute;
+    bottom: -50px;
+    right: -5px;
+    padding: 50px 50px;
+    border: 5px solid var(--white);
+}
+.polymer-detail p{
+    margin-top: 80px;
+    margin-left: 0px;
+    font-size: 0.9em;
+}
+.poly-info-2 p{
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+.poly-application .app-title{
+    font-size: 1.1em;
+}
+.one-line{
+    height: 4px;
+    width: 100px;
+}
+.application-inner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
+.app-right{
+    margin-left: 0;
+}
+.app{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.app img{
+    width: 30px;
+    margin-right: 30px;
+}
+.app p{
+    font-size: 1em;
+}
+/* polymer section end*/
+
+/* 6. chemical page */
+
+/* chemical info  */
+.chemical-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
+  .chemical-title h1{
+      margin-top: 30px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .chemical-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .chemical-img img{
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .chemical-img p{
+    font-size: 0.9em;
+    margin-right: 0px;
+  }
+  .chem-application{
+    margin-bottom: 30px;
+  }
+  .chem-application-title h1{
+    margin-bottom: 10px;
+  }
+  .chem-apps,.chem-types{
+    display: flex;
+    flex-direction: column;
+  }
+  .chem-app,.chem-type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .chem-app img{
+    width: 30px;
+    margin-right: 20px;
+  }
+  .chem-app p{
+    font-size: 0.8em;
+  }
+  .chem-app a{
+    font-size: 0.8em;
+    margin-right: 20px;
+    color: #707070;
+  }
+  .pdf-icon{
+    width: 20px !important;
+  }
+  .pdf-icon-2{
+    width: 30px !important;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .chemical-title h1{
+    padding: 30px 0px 20px;
+    margin: 0 !important;
+  }
+  /* chemical info end */
+
+  .pp-text p{
+    padding-right: 0px;
+  }
