@@ -68,6 +68,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .home-hero-inner h1 {
   text-align: center !important;
@@ -392,6 +394,10 @@ p {
 /* location section */
 .contact-title {
   padding-top: 50px;
+}
+.contact-title > h1 {
+  margin-left: 100px;
+  margin-bottom: 20px;
 }
 .location-section {
   margin: 50px 0px;
@@ -763,4 +769,18 @@ input[type='submit']:hover {
   color: #000000 !important;
   border-bottom: 1px solid black;
   padding-bottom: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .con-det > p {
+    font-size: 14px;
+  }
+  .title h1 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .contact-title > h1 {
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
 }
