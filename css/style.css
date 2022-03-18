@@ -771,6 +771,17 @@ input[type='submit']:hover {
   padding-bottom: 2px;
 }
 
+.herotextmain {
+  color: #ffff;
+  font-size: 45px;
+}
+.heromain-textwrap {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  
+}
+
 @media screen and (max-width: 600px) {
   .con-det > p {
     font-size: 14px;
@@ -792,6 +803,17 @@ input[type='submit']:hover {
     text-align: center !important;
     margin-left: -350px;
   }
+  .herotextmain {
+    color: #ffff;
+    font-size: 25px;
+  }
+  .heromain-textwrap {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 601px) {
@@ -800,14 +822,57 @@ input[type='submit']:hover {
     float: left;
     margin-left: -700px;
   }
+  .herotextmain {
+    color: #ffff;
+    font-size: 30px;
+  }
+  .heromain-textwrap {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
 }
-@media screen and (max-width: 1001px) and (min-width: 1700px) {
+@media screen and (min-width: 1001px) and (max-width: 1400px) {
   .home-hero-inner h1 {
     text-align: center !important;
     float: left;
     margin-left: -1200px;
   }
   .home-hero-inner {
-   margin-left: -200px;
+    margin-left: -200px;
+  }
+  .herotextmain {
+    color: #ffff;
+    font-size: 40px;
+  }
+
+  .heromain-textwrap {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1700px) {
+  .home-hero-inner h1 {
+    text-align: center !important;
+    float: left;
+    margin-left: -1200px;
+  }
+  .home-hero-inner {
+    margin-left: -200px;
+  }
+  .herotextmain {
+    color: #ffff;
+    font-size: 45px;
+  }
+
+  .heromain-textwrap {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 27%;
   }
 }
