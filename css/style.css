@@ -317,6 +317,8 @@ p {
 .co-img {
   width: 400px;
 }
+
+
 .mission {
   position: relative;
   padding: 20px;
@@ -809,7 +811,7 @@ input[type='submit']:hover {
   }
   .heromain-textwrap {
     margin: 0;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 15%;
     width: 80%;
@@ -828,7 +830,7 @@ input[type='submit']:hover {
   }
   .heromain-textwrap {
     margin: 0;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 20%;
   }

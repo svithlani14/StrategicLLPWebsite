@@ -25,36 +25,36 @@
   <body>
     <!-- navbar -->
     <nav>
-      <a href="index.html">
-               <div class="logo"><img src="img/home/tulsi_logo.png" alt="" style="margin-top: 15px; width: 100%;max-width: 280px;" /></div>
-      </a>
-      <label for="btn" class="icon">
-        <span class="fa fa-bars bar-black"></span>
+      <div class="logo">
+        <div class="logo">
+          <img
+            src="img/home/tulsi_logo.png"
+            alt=""
+            style="margin-top: 15px; width: 80%;max-width: 280px;"
+          />
+        </div>
+      </div>
+      <input type="checkbox" id="click" />
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
       </label>
-      <input type="checkbox" id="btn" />
       <ul>
         <li><a class="active-link" href="index.html">Home</a></li>
         <li><a href="about-us.html">About Us</a></li>
         <li>
-          <label for="btn-2" class="show">Products +</label>
-          <a href="#">Products</a>
-          <input type="checkbox" id="btn-2" />
-          <ul>
-            <li>
-              <a href="disperse-dye.html" style="font-size: 16px;"
-                >Disperse dye</a
-              >
-            </li>
-            <li>
-              <a href="reactive-dyes.html" style="font-size: 16px;"
-                >Reactive dyes</a
-              >
-            </li>
-          </ul>
+          <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Products+</button>
+  <div id="myDropdown" class="dropdown-content">
+   <a href="disperse-dye.html" style="font-size: 16px;">Disperse dye</a>
+    <a href="reactive-dyes.html" style="font-size: 16px;">Reactive dyes</a>
+  </div>
+</div>
         </li>
         <li><a href="contact-us.html">Contact Us</a></li>
       </ul>
+</div>
     </nav>
+
     <!-- navbar end-->
 
     <!-- page title section -->
@@ -248,5 +248,26 @@
 
     <script src="app.js"></script>
     <script src="js/tab.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- <script src="js/app.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  function myFunction () {
+    document.getElementById('myDropdown').classList.toggle('show')
+  }
+  window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName('dropdown-content')
+      var i
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i]
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show')
+        }
+      }
+    }
+  }
+</script>
+
   </body>
 </html>
