@@ -343,8 +343,6 @@ input {
   display: block;
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -437,6 +435,10 @@ input[type='checkbox'] {
   }
 }
 @media (max-width: 920px) {
+  nav ul li {
+    margin: 0 -10px;
+  }
+
   nav .menu-btn i {
     display: block;
   }
@@ -454,6 +456,7 @@ input[type='checkbox'] {
     text-align: center;
     display: block;
     transition: all 0.3s ease;
+    border-radius: 0px 0px 10px 10px;
   }
   #click:checked ~ ul {
     left: 0;
